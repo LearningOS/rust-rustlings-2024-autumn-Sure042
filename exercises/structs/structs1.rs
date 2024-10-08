@@ -1,19 +1,20 @@
 // structs1.rs
 //
-// Address all the TODOs to make the tests pass!
+// 
 //
 // Execute `rustlings hint structs1` or use the `hint` watch subcommand for a
 // hint.
 
+
 struct ColorClassicStruct {
     pub red: i32,
     pub green: i32,
-    pub blue: i32,
-} 
+    pub blue:  i32,
+}  
 
 struct ColorTupleStruct(i32,i32,i32);
 
-#[derive(Debug)]
+#[derive(Debug)]    
 struct UnitLikeStruct;
 
 #[cfg(test)]
